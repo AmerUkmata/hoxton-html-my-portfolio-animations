@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+/*HEADER*/
+.Container{
+    background-color: #fff;
+}
+.header{
+    align-items: center;
+    display: grid;
+    grid-auto-flow: column;
+    text-decoration: solid;
+
+}
+.header a{
+    text-decoration: solid;
+    color: black;
+}
+
+.myname{
+    float: left;
+    padding-left: 20px;
+}
+/*Work*/
+.Puna{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    background-color: #ccc;
+    padding: 40px;
+}
+.carda{
+    padding: 20px;  
+    background-color: #fff;
+    box-shadow: 3px 3px 3px 3px gray;
+    text-align: center;
+    margin: 30px;
+}
+.cardb{
+    padding: 20px; 
+    background-color: #fff; 
+    box-shadow: 3px 3px 3px 3px  gray;
+    text-align: center;
+}
+/*Grup*/
+.hello{
+    background-color: #fff;
+    text-align: center;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    padding: 40px;
+}
+.hello h1{
+    text-align: center;
+}
+.hello div{
+    padding: 20px;  
+    box-shadow: 3px 3px 3px 3px gray;
+}
+/*footer*/
+footer{
+    background-color: gray;
+    padding: 20px;
+}
+/**/
+.video{
+    text-align: center;
+    padding: 20px;
+}
