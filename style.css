@@ -72,13 +72,14 @@ footer{
 .carda img{
     width: 100px;
     height: 100px;
+    animation: jiggle 0.9s;
     
 }
 .cardb img{
     width: 100px;
     height: 100px;
 
-    animation: jiggle 0.5s;
+    animation: jiggle 0.9s;
 }
 @keyframes jiggle {
     0% {
